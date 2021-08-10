@@ -7,7 +7,7 @@ body {
 .img-container {
   height: 105vh;
   position: relative;
-  background-image: url(./img/messi-camp.jpg);
+  background-image: url(img/messi-camp.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -15,11 +15,11 @@ body {
 }
 
 .two {
-  background-image: url(/img/messi-2009.jpg);
+  background-image: url(img/messi-2009.jpg);
 }
 
 .trhee {
-  background-image: url(/img/messi-2011-1.jpg);
+  background-image: url(img/messi-2011-1.jpg);
 }
 
 .text-container {
@@ -88,13 +88,13 @@ h1 {
 }
 
 .multiply__card:nth-child(1) {
-  background-image: url(/img/messi-festejo-real.jpg);
+  background-image: url(img/messi-festejo-real.jpg);
 }
 
 .multiply__card:nth-child(2) {
-  background-image: url(/img/champ-2015.jpg);
+  background-image: url(img/champ-2015.jpg);
 }
 
 .multiply__card:nth-child(3) {
-  background-image: url(/img/messi-diego.jpg);
+  background-image: url(img/messi-diego.jpg);
 }
