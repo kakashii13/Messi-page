@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  height: 100vh;
+  position: relative;
+  background-image: url(/img/messi-camp.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+}
+
+.text-container {
+  position: absolute;
+  z-index: 1000;
+  left: 32%;
+  top: -30px;
+}
+
+.span-one {
+  color: #004d98;
+}
+
+.span-two {
+  color: #a50044;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  color: #edbb00;
+  text-shadow: 1px 1px 2px #004d98, 3px 3px 2px #a50044;
+}
