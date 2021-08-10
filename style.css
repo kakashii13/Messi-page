@@ -43,3 +43,58 @@ h1 {
   color: #edbb00;
   text-shadow: 1px 1px 2px #004d98, 3px 3px 2px #a50044;
 }
+
+.multiply {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.multiply__card {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+}
+
+.text-card {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  transition: all 0.3s linear;
+  transform: translateY(100%);
+}
+
+.multiply__card:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.4);
+}
+
+.multiply__card:hover .text-card {
+  transform: translateY(0);
+}
+
+.multiply__card:nth-child(1) {
+  background-image: url(/img/messi-festejo-real.jpg);
+}
+
+.multiply__card:nth-child(2) {
+  background-image: url(/img/champ-2015.jpg);
+}
+
+.multiply__card:nth-child(3) {
+  background-image: url(/img/messi-diego.jpg);
+}
