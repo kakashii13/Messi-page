@@ -7,7 +7,7 @@ body {
 .img-container {
   height: 105vh;
   position: relative;
-  background-image: url(/img/messi-camp.jpg);
+  background-image: url(./img/messi-camp.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
